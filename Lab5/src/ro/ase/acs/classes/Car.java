@@ -8,7 +8,7 @@ public final class Car extends Vehicle implements Taxable, Comparable<Car> {
 	
 	public Car() {
 		super();
-		color = "black";
+		color = "red";
 		capacity = 50;
 	}
 	
@@ -21,7 +21,6 @@ public final class Car extends Vehicle implements Taxable, Comparable<Car> {
 	public String getColor() {
 		return color;
 	}
-
 	public void setColor(String color) {
 		this.color = color;
 	}
